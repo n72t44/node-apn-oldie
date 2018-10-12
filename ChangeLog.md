@@ -1,5 +1,9 @@
 ## Changelog
 
+1.7.8c:
+
+* Add support for Critical Alerts
+
 1.7.8:
 
 * Add support for Mutable Content (#413)
