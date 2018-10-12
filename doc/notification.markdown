@@ -41,7 +41,7 @@ The value to specify for `payload.aps.badge`
 
 ### notification.sound
 
-The value to specify for `payload.aps.sound`
+The value to specify for `payload.aps.sound` can be either a `String` or an `Object` as outlined by the payload documentation.
 
 ### notification.alert
 
@@ -78,6 +78,18 @@ Set the `title` property of the `aps.alert` object - used with Safari Push Notif
 ### notification.setAlertAction(alertAction)
 
 Set the `action` property of the `aps.alert` object - used with Safari Push Notifications
+
+### notification.setSoundName(soundName)
+
+Set the `name` property of the `aps.sound` object - used with iOS Critical Alerts
+
+### notification.setSoundVolume(soundVolume)
+
+Set the `volume` property of the `aps.sound` object - used with iOS Critical Alerts
+
+### notification.setSoundCritical(isCritical)
+
+Set the `critical` property of the `aps.sound` object - used with iOS Critical Alerts
 
 ### notification.setActionLocKey(key)
 
