@@ -1,5 +1,9 @@
 ## Changelog
 
+1.7.8c-newrepo:
+
+* no longer a fork. Frozen to free node-apn name and fork @parse/node-apn 4.0.0
+
 1.7.8c:
 
 * Add support for Critical Alerts
